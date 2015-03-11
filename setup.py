@@ -1,4 +1,3 @@
-
 #! /usr/bin/env python
 import os
 from setuptools import setup, find_packages
@@ -18,10 +17,8 @@ setup(
 
     license="BSD",
     description="Tutorial for the tox workshop",
-    # long_description=README,
     keywords="tox testing",
     author="Damon Kelley",
-    # cmdclass={'test': PyTest},
     url="https://github.com/damonkelley/tox-tut",
     classifiers=[
         "Intended Audience :: End Users/Desktop",
