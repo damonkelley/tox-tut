@@ -1,3 +1,4 @@
+from __future__ import print_function
 import os
 
 def is_odd(n):
@@ -5,4 +6,4 @@ def is_odd(n):
 
 
 def print_me():
-    print os.environ.get("USER")
+    print(os.environ.get("USER"))
